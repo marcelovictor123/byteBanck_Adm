@@ -1,0 +1,15 @@
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\bin\Debug\net6.0\byteBanck_Adm.exe
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\bin\Debug\net6.0\byteBanck_Adm.deps.json
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\bin\Debug\net6.0\byteBanck_Adm.runtimeconfig.json
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\bin\Debug\net6.0\byteBanck_Adm.dll
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\bin\Debug\net6.0\byteBanck_Adm.pdb
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.csproj.AssemblyReference.cache
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.AssemblyInfoInputs.cache
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.AssemblyInfo.cs
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.csproj.CoreCompileInputs.cache
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.dll
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\refint\byteBanck_Adm.dll
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.pdb
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\byteBanck_Adm.genruntimeconfig.cache
+C:\Cursos\C_sharp\byteBanck_Adm\byteBanck_Adm\obj\Debug\net6.0\ref\byteBanck_Adm.dll
