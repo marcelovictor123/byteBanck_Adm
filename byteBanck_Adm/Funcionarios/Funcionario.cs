@@ -9,7 +9,7 @@ namespace byteBanck_Adm.Funcionarios
     public class Funcionario
     {
         public string Nome { get; set; }
-        public string Cpf { get; set; }
+        public string Cpf { get; private set; }
 
         public double Salario { get; set; }
 
@@ -22,10 +22,11 @@ namespace byteBanck_Adm.Funcionarios
             return this.Salario * 0.10;
         }
 
-        public Funcionario()
+        public Funcionario(string cpf)
         {
+            this.Cpf = cpf;
             TotalDeFuncionarios++;
-            Console.WriteLine("Criando um funcionario.");
+            //Console.WriteLine("Criando um funcionario.");
         }
 
     

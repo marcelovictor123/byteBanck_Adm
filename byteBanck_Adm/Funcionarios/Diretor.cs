@@ -15,9 +15,9 @@ namespace byteBanck_Adm.Funcionarios
             return this.Salario + base.GetBonificacao();
         }
 
-        public Diretor()
+        public Diretor(string cpf):base(cpf)
         {
-            Console.WriteLine("Criando um diretor");
+            //Console.WriteLine("Criando um diretor");
         }
     }
 }
