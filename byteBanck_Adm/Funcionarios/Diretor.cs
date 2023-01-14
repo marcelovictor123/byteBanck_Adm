@@ -14,5 +14,10 @@ namespace byteBanck_Adm.Funcionarios
 
             return this.Salario + base.GetBonificacao();
         }
+
+        public Diretor()
+        {
+            Console.WriteLine("Criando um diretor");
+        }
     }
 }

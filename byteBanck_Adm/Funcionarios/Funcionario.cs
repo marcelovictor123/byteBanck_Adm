@@ -13,11 +13,19 @@ namespace byteBanck_Adm.Funcionarios
 
         public double Salario { get; set; }
 
-  
+        public static int TotalDeFuncionarios { get; private set; }
+
+
         public virtual double GetBonificacao()
         {
            
             return this.Salario * 0.10;
+        }
+
+        public Funcionario()
+        {
+            TotalDeFuncionarios++;
+            Console.WriteLine("Criando um funcionario.");
         }
 
     
