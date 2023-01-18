@@ -1,4 +1,5 @@
 ﻿using byteBanck_Adm.Funcionarios;
+using byteBanck_Adm.SistemaInterno;
 using byteBanck_Adm.Utilitario;
 using ByteBank.Funcionarios;
 using ByteBank_ADM.Funcionarios;
@@ -33,7 +34,8 @@ using ByteBank_ADM.Funcionarios;
 //Console.WriteLine("novo salario da Roberta " + roberta.Salario);
 #endregion
 
-CalcularBonificacao();
+//CalcularBonificacao();
+UsarSistema();
 void CalcularBonificacao()
 {
     GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
@@ -56,5 +58,24 @@ void CalcularBonificacao()
     gerenciador.Registrar(ulisses);
 
     Console.WriteLine("Total de Bonificação = " + gerenciador.TotalDeBonificacao);
+
+}
+
+void UsarSistema()
+{
+    SistemaInterno sistema = new SistemaInterno();
+
+    Diretor ingrid = new Diretor("12346678912");
+    ingrid.Nome = "Ingrid";
+    ingrid.Senha = "123";
+
+    GerenteDeConta ursula = new GerenteDeConta("1236554987");
+    ursula.Nome = "Ursula";
+    ursula.Senha="123";
+
+   
+
+    sistema.Logar(ingrid, "123");
+    sistema.Logar(ursula, "1234");
 
 }
